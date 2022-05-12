@@ -4,9 +4,10 @@ although the knowledgement of all these django´s modules are still incognito.ca
 first things first:
 - create new folder;
 - within that folder,python3 -m venv (name)- create a virtual enviroment;
-- activate env....windows(source name/scripts/activate)...linux(name/bin/activate);
+- activate env....windows(name/scripts/activate)...linux(name/bin/activate);
 - pip install django;
-- pip freeze....?
+- pip freeze....to veriry the correct install...
+- django-admin --help....
 - django-admin.py startproject (name);
 - python manage.py migrate;
 - python manage.py runserver =>django on?;
