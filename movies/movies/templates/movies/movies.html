@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Movies</title>
+    </head>
+    <body>
+        <h1>Usando variável</h1>
+        {{movies}}
+  
+        <h1>Movies - Usando For in( ver views.py)</h1>
+        <h1>Movies - Usando DB</h1>
+        <ul>
+        {%for movie in movies%}
+            <li><a href={{movie.id}}>{{movie.title}}</a></li>
+            <li>{{movie.year}}</li>
+        {%endfor%}
+        </ul>
+        <a href="/movies/add">Add Movie</a>
+    </body>
+</html>
