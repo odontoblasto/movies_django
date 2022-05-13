@@ -3,7 +3,7 @@ first task about learning django ....fortunately, i´ve built some modules that 
 although the knowledgement of all these django´s modules are still incognito.carlos..5/12/22.
 
 <h1>first things first:</h1>
-<strong. be sure that you´ve already has Python in your machine....</strong>
+<strong>... be sure that you´ve already has Python in your machine....</strong>
 <ul>
 <li>- create new folder;</li>
 <li>- within that folder,python3 -m venv (name)- create a virtual enviroment;</li>
